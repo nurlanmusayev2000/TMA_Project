@@ -1,0 +1,92 @@
+.App {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+    gap: 1.5rem;
+}
+
+.add-item-form {
+    background-color: gray;
+    color: white;
+    display: none;
+}
+
+.add-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-form>* {
+    margin: 5px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: grey;
+    margin-top: 50px;
+}
+
+.login-form>* {
+    margin: 15px;
+}
+
+.order-form-container {
+    display: none;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: gray;
+    color: white;
+}
+
+.order-form-container>* {
+    margin: 3px;
+}
+
+.order-form {
+    display: flex;
+    align-items: center;
+}
+
+.order-form * {
+    margin: 5px;
+}
+
+.confirm:hover {
+    background-color: green;
+}
+
+.reject:hover {
+    background-color: red;
+}
